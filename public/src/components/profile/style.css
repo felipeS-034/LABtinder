@@ -1,0 +1,215 @@
+.recuadro {
+    border-radius: 2%;
+    position: relative;
+    width: 270px;
+    height: 450px;
+    background: rgb(255, 255, 255);
+    box-shadow: 1px 1px 10px #999;
+    margin-top: 20px;
+}
+
+.usuario {
+    position: absolute;
+    width: 14px;
+    top: 10px;
+    left: 13px;
+}
+
+.logo {
+    position: absolute;
+    width: 70px;
+    top: 1px;
+    left: 100px;
+}
+
+.contenido {
+    position: absolute;
+    border-radius: 2%;
+    width: 250px;
+    top: 40px;
+    left: 10px;
+    object-fit: cover;
+
+}
+
+
+
+/*Textos*/
+
+.nameuser {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    font-family: Poppins;
+    top: 260px;
+    left: 20px;
+    text-shadow:
+        0 0 5px rgba(0, 179, 255, 0.324),
+        0 0 10px rgba(0, 179, 255, 0.454),
+        0 0 15px rgba(0, 179, 255, 0.426),
+        0 0 20px rgba(38, 104, 127, 1),
+        0 0 25px rgba(38, 104, 127, 1),
+        0 0 30px rgba(38, 104, 127, 1),
+        0 0 35px rgba(38, 104, 127, 1),
+        0 0 40px rgba(38, 104, 127, 1),
+        0 0 45px rgba(38, 104, 127, 1);
+}
+
+.age {
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    font-family: Poppins;
+    top: 269px;
+    left: 110px;
+}
+
+.distance {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 450;
+    top: 320px;
+    left: 20px;
+}
+
+.location {
+    position: absolute;
+    color: white;
+    font-size: 10px;
+    font-family: Poppins;
+    font-weight: 450;
+    top: 300px;
+    left: 20px;
+    right: 2px;
+}
+
+
+/*Botones*/
+
+.atras {
+    position: absolute;
+    border-radius: 50%;
+    width: 30px;
+    top: 390px;
+    left: 10px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.estrella {
+    position: absolute;
+    border-radius: 50%;
+    width: 35px;
+    top: 390px;
+    left: 112px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.likes {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    top: 390px;
+    left: 165px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.rayo {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    top: 390px;
+    left: 220px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+.cerrar {
+    position: absolute;
+    border-radius: 50%;
+    width: 40px;
+    top: 390px;
+    left: 55px;
+    box-shadow: 1px 1px 10px #999;
+}
+
+/*Botones que sirven*/
+
+
+
+.like {
+    font-family: Poppins;
+    color: white;
+    background: linear-gradient(259deg, #217d00 0%, #00ff40 85.29%);
+    box-shadow: -10.3605px 3.18015px 33.3333px rgba(0, 48, 18, 0.8), inset 10.907px -2.1201px 11.1111px #006012, inset -10.907px 2.1201px 11.1111px #00ff22;
+    border-radius: 20px;
+    border : none;
+    width: 70px;
+    height: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+    animation: pulse 1.5s infinite;
+    
+
+}
+
+@keyframes pulse{
+    0%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.);
+    }
+    70%{
+        transform: scale(1.050);
+        box-shadow: 0 0 0 60px rgba(256, 256, 256, 0.);
+    }
+    100%{
+        transform: scale(.99);
+        box-shadow: 0 0 0 0 rgba(256, 256, 256, 0.);
+    }
+}
+
+.cuadros {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.cuadro{
+    display: flex;
+    margin-left: 5px;
+    gap: 5px;
+
+}
+
+.textolikes{
+    font-family: Poppins;
+    font-weight: 450;
+}
+
+.cuadro2{
+    display: flex;
+    margin-top: 1px;
+    margin-left: 20px;
+    gap: 5px;
+}
+
+.textodislikes{
+    font-family: Poppins;
+    font-weight: 450;
+}
+
+.dislike {
+    font-family: Poppins;
+    color: rgb(245, 245, 245);
+    background: linear-gradient(259deg, #c81a31ba 0%, #d31919f9 85.29%);
+    box-shadow: -16.3605px 3.18015px 33.3333px rgba(48, 0, 6, 0.8), inset 10.907px -2.1201px 11.1111px #600002, inset -10.907px 2.1201px 11.1111px #ff00007d;
+    border-radius: 20px;
+    border : none;
+    width: 70px;
+    height: 30px;
+    margin-top: 22px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+
